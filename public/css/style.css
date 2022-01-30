@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+     /* display: flex; */
+     /* background-color:black; */
+    justify-content: center; 
+    font-family: 'Roboto', sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border-bottom: 1px solid white;
+    padding: 10px 20px;
+    font-size: 16x;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+
+}
+
+tr:nth-child(odd){
+    background-color: #EDEEF1;
+
+}
+
+tr:hover td{
+    color: #44b478;
+    cursor: pointer;
+}
+
+td a{
+    border: none;
+    /* padding: 7px 20px; */
+    border-radius: 20px;
+    text-decoration: none;
+    /* background-color:black;
+    color: white; */
+}
+
+.header_fixed{
+    height: 500px;
+    /* overflow: auto; */
+    margin-top: 30px;
+    border: 1px solid white;
+}
+.header_fixed thead th{
+    position: sticky;
+    top: 0;
+    background-color: rgb(88, 88, 88);
+    color: #E6E7E8;
+    font-size: 17px;
+
+}
+#one{
+    font-family: 'Impact';
+    color: blue;
+    font-size: 25px;
+}
