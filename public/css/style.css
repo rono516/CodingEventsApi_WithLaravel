@@ -1,13 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+nav a{
+  float: right;
+  left: 50px;
+  padding-top: 10px;
+  font-size: 13px;
+  clear: both;
+  margin-left: 10px;
+
+}
+
 body{
     width: 100%;
-     /* display: flex; */
-     /* background-color:black; */
     justify-content: center; 
     font-family: 'Roboto', sans-serif;
 }
@@ -37,16 +47,12 @@ tr:hover td{
 
 td a{
     border: none;
-    /* padding: 7px 20px; */
     border-radius: 20px;
     text-decoration: none;
-    /* background-color:black;
-    color: white; */
 }
 
 .header_fixed{
     height: 500px;
-    /* overflow: auto; */
     margin-top: 30px;
     border: 1px solid white;
 }
@@ -62,4 +68,56 @@ td a{
     font-family: 'Impact';
     color: blue;
     font-size: 25px;
+}  */
+
+td a{
+    
+    text-decoration: none;
 }
+#one{
+    font-family: 'Impact';
+    color: blue;
+    font-size: 25px;
+}
+@media only screen and (max-width:800px)
+     {
+         #no-more-tables tbody, 
+         #no-more-tables tr, 
+         #no-more-tables td{
+             display: block;
+
+         }
+         #no-more-tables thead{
+             position: absolute;
+             top: -9999px;
+             left: -9999px;
+         }
+         #no-more-tables td{
+             position: relative;
+             padding-left: 50%;
+             border: none;
+             /* border-bottom: 1px solid red; */
+         }
+         #no-more-tables td:before{
+             content: attr(data-title);
+             position: absolute;
+             left: 6px;
+             font-weight: bold;
+         }
+         #no-more-tables tr{
+             border-bottom: 1px solid #ccc;
+         }
+         #one{
+            font-family: 'Impact';
+            color: blue;
+            font-size: 25px;
+        }
+        td a{
+    
+            text-decoration: none;
+        }
+         
+         
+         
+     }
+
