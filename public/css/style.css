@@ -70,14 +70,18 @@ td a{
     font-size: 25px;
 }  */
 
+
+
+
+
 td a{
     
     text-decoration: none;
 }
 #one{
-    font-family: 'Impact';
+    /* font-family: 'Impact'; */
     color: blue;
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 @media only screen and (max-width:800px)
      {
@@ -116,7 +120,6 @@ td a{
     
             text-decoration: none;
         }
-         
          
          
      }
