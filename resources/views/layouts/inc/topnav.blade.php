@@ -57,8 +57,9 @@
     
     
   </nav> --}}
+  
 
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <nav style="margin-left: 2.5%; margin-right:2.5%;" class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-centre">
 
     <div class="container-fluid">
       <img style="border: 5px solid white;" height="170px" width="170px" src="{{ asset('img/CodeiT.png') }}" alt="">
@@ -73,21 +74,23 @@
          <span class="navbar-toggler-icon"></span> </button>
 
     
-     <div class="collapse navbar-collapse" id="navbar-menu">      
+     <div class="collapse navbar-collapse mr-4" id="navbar-menu">      
       <ul class="navbar-nav mr-auto">
-        <li><a href="{{ url('/') }}" class="nav-link">CodeForces</a></li>
-        <li><a href="{{ url('/') }}" class="nav-link">CodeForces::Gym</a></li>
-        <li><a href="{{ url('/') }}" class="nav-link">TopCoder</a></li>
-        <li><a href="{{ url('/') }}" class="nav-link">AtCoder</a></li>
-        <li><a href="{{ url('/') }}" class="nav-link">CodeChef</a></li>
-        <li><a href="{{ url('/') }}" class="nav-link">CS Academy</a></li>
-        <li><a href="{{ url('/') }}" class="nav-link">HackerRank</a></li>
-        <li><a href="{{ url('/') }}" class="nav-link">Kick Start</a></li>
-        <li><a href="{{ url('/') }}" class="nav-link">LeetCode</a></li>
-        <li><a href="{{ url('/') }}" class="nav-link">Contest Sites</a></li>
+        <li><a href="{{ url('/') }}" class="nav-link">All Contests</a></li>
+        <li><a href="{{ url('/hackerearth') }}" class="nav-link">Hacker Earth</a></li>
+        <li><a href="{{ url('/codeforces') }}" class="nav-link">CodeForces</a></li>
+       
+        <li><a href="{{ url('/topcoder') }}" class="nav-link">TopCoder</a></li>
+        <li><a href="{{ url('/atcoder') }}" class="nav-link">AtCoder</a></li>
+        <li><a href="{{ url('/codechef') }}" class="nav-link">CodeChef</a></li>
+        <li><a href="{{ url('/hackerrank') }}" class="nav-link">HackerRank</a></li>
+        <li><a href="{{ url('/kickstart') }}" class="nav-link">Kick Start</a></li>
+        <li><a href="{{ url('/leetcode') }}" class="nav-link">LeetCode</a></li>
+        <li><a href="{{ url('/sites') }}" class="nav-link">Contest Sites</a></li>
         <li><a href="https://www.facebook.com/collins.sharks.3/" class="nav-link"><i class="fa fa-facebook"  style="font-size:28px;"></i></a></li>
         <li><a href="https://github.com/rono516" class="nav-link"><i class="fa fa-github" style="font-size:36px"></i></a></li>       
         <li><a href="https://mobile.twitter.com/Collins42Rono" class="nav-link"><i class="fa fa-twitter" style="font-size:28px"></i></a></li>
+        
       </ul>
 
     </div>
