@@ -83,6 +83,21 @@ td a{
     color: blue;
     /* font-size: 25px; */
 }
+
+/* tr:nth-child(even){
+    background-color: #dddddd;
+
+}
+
+tr:nth-child(odd){
+    background-color: #EDEEF1;
+
+}
+.header_fixed{
+    height: 500px;
+    margin-top: 30px;
+    border: 1px solid white;
+} */
 @media only screen and (max-width:800px)
      {
          #no-more-tables tbody, 

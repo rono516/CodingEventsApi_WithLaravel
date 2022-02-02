@@ -10,7 +10,7 @@
         <th>Start Time</th>
         <th>End Time</th>
         <th>Duration</th>
-        {{-- <th>Site</th> --}}
+        <th>Contest Type</th>
         <th>In 24hrs?</th>
         <th>Coding Status</th>
 
@@ -24,7 +24,7 @@
               <td data-title="Start Time">{{ $event->start_time }}</td>
               <td data-title="End Time">{{ $event->end_time }}</td>
               <td data-title="Duration">{{ $event->duration }}</td>
-              {{-- <td data-title="Site">{{ $event->site }}</td> --}}
+              <td data-title="Site">{{ $event->type_ }}</td>
               <td data-title="In 24hrs?">{{ $event->in_24_hours }}</td>
               <td data-title="Coding Status">{{ $event->status }}</td>
             </tr>
