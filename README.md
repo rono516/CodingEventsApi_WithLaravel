@@ -6,3 +6,4 @@ Click on the link provided, sign up and participate in the coding events  and co
 
 #Setting up a Laravel application you clone from GitHub
 https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/   
+https://gist.github.com/harisfi/ec3fae34680c38706cbf3ee978a7172b
