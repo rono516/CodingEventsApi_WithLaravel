@@ -3,7 +3,7 @@
 <section class="bg-light p-5">
   <div class="header_fixed table-responsive" id="no-more-tables">
     <table class="table bg-white">
-     <thead class="bg-dark text-light">
+     <thead  class="darker">
         <th>Contest Name</th>
         <th>Contest Link : CODING events are underway|| BEFORE are yet to begin</th>
         <th>Start Time</th>
@@ -16,13 +16,16 @@
        </thead>
        <tbody>
          @foreach ($events as $event)
-
+         
+        
            <tr>
+          <!-- $timestamp = strtotime($event->start_time) -->
+                        
               <td data-title="Contest Name" style="width: 200px;">{{ $event->name }}</td>
               <td data-title="Contest Link" style="width: 200px;"> <a href="{{ $event->url }}">{{ $event->url }}</a></td>
-              <td data-title="Start Time">{{ $event->start_time }}</td>
-              <td data-title="End Time">{{ $event->end_time }}</td>
-              <td data-title="Duration">{{ $event->duration }}</td>
+              <td data-title="Start Time">{{ date("d/M/Y H:i:s", strtotime($event->start_time)) }}</td>
+              <td data-title="End Time">{{ date("d/M/Y H:i:s", strtotime($event->end_time)) }}</td>
+              <td data-title="Duration">{{ gmdate("H:i:s", ($event->duration))  }}</td>
               <td data-title="Site">{{ $event->site }}</td>
               <td data-title="In 24hrs?">{{ $event->in_24_hours }}</td>
               <td data-title="Coding Status">{{ $event->status }}</td>

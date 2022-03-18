@@ -1,11 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-*{
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/*
 nav a{
   float: right;
   left: 50px;
@@ -71,12 +73,22 @@ td a{
 }  */
 
 
-
+table{
+    border-collapse: collapse;
+}
 
 
 td a{
     
     text-decoration: none;
+}
+
+/* thead{
+    background-color: black;
+} */
+
+darker{
+    color: black;
 }
 #one{
     /* font-family: 'Impact'; */
@@ -84,7 +96,7 @@ td a{
     /* font-size: 25px; */
 }
 
-/* tr:nth-child(even){
+tr:nth-child(even){
     background-color: #dddddd;
 
 }
@@ -93,11 +105,17 @@ tr:nth-child(odd){
     background-color: #EDEEF1;
 
 }
-.header_fixed{
+/* .header_fixed{
     height: 500px;
     margin-top: 30px;
     border: 1px solid white;
 } */
+
+body{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+ }
 @media only screen and (max-width:800px)
      {
          #no-more-tables tbody, 

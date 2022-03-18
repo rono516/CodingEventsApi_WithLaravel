@@ -7,9 +7,13 @@
   <nav style="margin-left: 2.5%; margin-right:2.5%;" class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-centre">
 
     <div class="container-fluid">
-      <img class="img img-round margin-lr-1" style="border: 5px solid white;" height="170px" width="170px" src="{{ asset('img/CodeiT.png') }}" alt="">
-      {{-- <a href="{{ url('/') }}" class="navbar-brand" style=" color:blue;" >CodeiT by Rono</a> --}}
-      <a href="{{ url('/') }}" class="navbar-brand">Coding Contests and Events</a>
+      <figure>
+        <img class="img img-round margin-lr-1" style="border: 5px solid white;" height="170px" width="170px" src="{{ asset('img/CodeiT.png') }}" alt="">
+        <figcaption>By Rono</figcaption>
+      </figure>
+
+      <!-- <a href="{{ url('/') }}" class="navbar-brand" style=" color:blue;" >CodeiT by Rono</a> -->
+      <a href="{{ url('/') }}" class="navbar-brand" style=" color:blue; font-size: 30px;" >Coding Contests</a>
       
       
       
@@ -25,13 +29,13 @@
         <li><a href="{{ url('/hackerearth') }}" class="nav-link">Hacker Earth</a></li>
         <li><a href="{{ url('/codeforces') }}" class="nav-link">CodeForces</a></li>
        
-        <li><a href="{{ url('/topcoder') }}" class="nav-link">TopCoder</a></li>
+        <!-- <li><a href="{{ url('/topcoder') }}" class="nav-link">TopCoder</a></li>
         <li><a href="{{ url('/atcoder') }}" class="nav-link">AtCoder</a></li>
-        <li><a href="{{ url('/codechef') }}" class="nav-link">CodeChef</a></li>
+        <li><a href="{{ url('/codechef') }}" class="nav-link">CodeChef</a></li> -->
         <li><a href="{{ url('/hackerrank') }}" class="nav-link">HackerRank</a></li>
         <li><a href="{{ url('/kickstart') }}" class="nav-link">Kick Start</a></li>
         <li><a href="{{ url('/leetcode') }}" class="nav-link">LeetCode</a></li>
-        <li><a href="{{ url('/sites') }}" class="nav-link">Contest Sites</a></li>
+        <!-- <li><a href="{{ url('/sites') }}" class="nav-link">Contest Sites</a></li> -->
         <li><a href="https://www.facebook.com/collins.sharks.3/">
           <button class="btn btn-primary-solid btn-rounded"><i class="fa fa-facebook"  style="font-size:28px;"></i></button>
         </a></li>
